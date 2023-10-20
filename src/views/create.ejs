@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create A new User</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="topnav">
+        <a href="/home">Home</a>
+        <a href="/create" class="active" >Create User</a>
+        
+    </div>
+
+    <div class="form-add-new">
+        <form action="/create_user" method="post">
+            <fieldset>
+                <legend>Add new Users</legend>
+    
+                <div class="input-client">
+                    <label>Email: </label>
+                    <input type="text" name="email"  placeholder="camtm2004@gmail.com:" />
+                </div>
+        
+                <div class="input-client">
+                    <label>Name: </label>
+                    <input type="text" name="Name" placeholder="Trần Mạnh Cầm:" />
+                </div>
+        
+                <div class="input-client">
+                    <label>City: </label>
+                    <input type="text" name="City" placeholder="Nam Định" />
+                </div>
+    
+                <div class="add-new">
+                    <button> commit </button>
+                </div>
+            </fieldset>
+        </form>
+
+    </div>
+</body>
+</html>
